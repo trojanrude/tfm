@@ -25,13 +25,16 @@ tfm/
 ├── data/                       # Datos JSON descargados (subvenciones y usuarios anonimizados)
 ├── vectorstore_pyme/          # Índice FAISS con subvenciones embebidas
 ├── main.py                    # Webhook vía FastAPI
+├── iniciat_bot.bat            # Script de arranque local
 ├── notificaciones.py          # Envío automático de alertas por WhatsApp
 ├── extraccion_subvenciones.py # Descarga de subvenciones desde API oficial
 ├── generar_vectorstore.py     # Indexación semántica de documentos
 ├── usuarios.py                # Gestión de usuarios y perfiles
 ├── .env.example               # Variables de entorno (plantilla)
 ├── requirements.txt           # Dependencias del proyecto
+├── LICENSE                    # Licencia de uso (MIT)
 └── README.md                  # Esta documentación
+
 ```
 
 ## Cómo ejecutar el proyecto
