@@ -82,6 +82,15 @@ OPENAI_API_KEY=tu_clave_openai
 ULTRAMSG_TOKEN=tu_token_ultramsg
 ULTRAMSG_INSTANCE_ID=tu_instance_id_ultramsg
 
+## Ejemplo de conversación
+
+**Usuario:** ¿Qué subvenciones hay para pymes tecnológicas en Cataluña?
+
+**Bot:** Subvención destacada: Programa Pyme Digital 2025 - Generalitat de Catalunya  
+Presupuesto: 200.000 €  
+Fecha fin: 30 de junio de 2025  
+Más información: [Enlace a la convocatoria]
+
 ## Licencia
 
 Este proyecto se distribuye bajo licencia MIT. Puedes utilizarlo, modificarlo y adaptarlo libremente.
