@@ -22,14 +22,13 @@ Este proyecto implementa un bot conversacional inteligente que permite consultar
 ## Estructura del repositorio
 ```bash
 tfm/
-├── data/                       # Datos JSON descargados
+├── data/                       # Datos JSON descargados (subvenciones y usuarios anonimizados)
 ├── vectorstore_pyme/          # Índice FAISS con subvenciones embebidas
 ├── main.py                    # Webhook vía FastAPI
 ├── notificaciones.py          # Envío automático de alertas por WhatsApp
 ├── extraccion_subvenciones.py # Descarga de subvenciones desde API oficial
 ├── generar_vectorstore.py     # Indexación semántica de documentos
 ├── usuarios.py                # Gestión de usuarios y perfiles
-├── usuarios.json              # Archivo simulado de usuarios
 ├── .env.example               # Variables de entorno (plantilla)
 ├── requirements.txt           # Dependencias del proyecto
 └── README.md                  # Esta documentación
