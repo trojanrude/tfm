@@ -101,5 +101,7 @@ Este proyecto se distribuye bajo licencia MIT. Puedes utilizarlo, modificarlo y 
 ## Créditos
 
 Desarrollado como Trabajo Final del Máster en Ciencia de Datos.
+
 Autor: Luis Felipe Sánchez Gutierrez
+
 Contacto: lfsanchezgutierrez@uoc.edu
