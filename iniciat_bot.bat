@@ -1,7 +1,7 @@
 @echo off
 title Bot RAG + UltraMsg
 
-:: Iniciar FastAPI en una nueva terminal
+:: Iniciar FastAPI en una nueva terminal, aquí se debe cambiar "tfm" por el environment que se prefiera, y se debe tener en cuenta la ubicación del archivo main. 
 start cmd /k "C:\Users\pipol\anaconda3\Scripts\activate.bat tfm && cd /d C:\Users\pipol\data && uvicorn main:app --reload"
 
 :: Esperar a que FastAPI arranque
