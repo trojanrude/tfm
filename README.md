@@ -26,6 +26,7 @@ tfm/
 ├── vectorstore_pyme/          # Índice FAISS con subvenciones embebidas
 ├── main.py                    # Webhook vía FastAPI
 ├── iniciat_bot.bat            # Script de arranque local
+├── inicia_bot.sh              # Script de arranque local para linux
 ├── notificaciones.py          # Envío automático de alertas por WhatsApp
 ├── extraccion_subvenciones.py # Descarga de subvenciones desde API oficial
 ├── generar_vectorstore.py     # Indexación semántica de documentos
